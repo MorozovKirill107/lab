@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+</head>
+    <body>
+    <button id="btn1">Click Me</button>
+    <button id="btn2">Show</button>
+    <textarea id="txt1" placeholder="enter your data"></textarea>
+    <script>
+     let btn1 = document.getElementById('btn1')
+     let btn2 = document.getElementById('btn2')
+     let txt1 = document.getElementById('txt1')
+     let arr =[]
+    btn1.onclick = function(){
+    arr.sort((x, y) => x > y ? 1 : -1);
+    alert(arr)
+    }
+    btn2.onclick = function(){
+        arr.sort((x, y) => x > y ? 1 : -1);
+    alert(arr)
+     }
+    </script>    
+</body>
+</html>
